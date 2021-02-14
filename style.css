@@ -1,0 +1,21 @@
+* {
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    margin: 5%;
+}
+
+p {
+    font-size: 25px;
+}
+
+#canvas-container {
+    width: 100%;
+    text-align:center;
+ }
+ 
+ canvas {
+    display: inline;
+ }
