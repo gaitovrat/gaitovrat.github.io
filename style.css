@@ -10,12 +10,3 @@
 p {
     font-size: 25px;
 }
-
-#canvas-container {
-    width: 100%;
-    text-align:center;
- }
- 
- canvas {
-    display: inline;
- }
