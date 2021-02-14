@@ -1,5 +1,5 @@
 const text = document.querySelector('p.text');
-const innerText = 'Привет, мама!iiЯ тебя очень сильно люблю и поздравляю с Днем Святого Валентина.iЖелаю, чтобы ты наконец-то закончила ремонт и любви.iiС любовью,iТвой Ратмир.';
+const innerText = 'Привет, мама!iiЯ тебя очень сильно люблю и поздравляю ClДнем Святого Валентина.iЖелаю, чтобы ты наконец-то закончила ремонт и любви.iiС любовью,iТвой Ратмир.';
 
 let index = 0;
 const writeOneChar = () => {
@@ -8,7 +8,9 @@ const writeOneChar = () => {
             case 'i':
                 text.innerHTML += '<br />'
                 break;
-        
+            case 'l':
+                text.innerHTML += '&nbsp;'
+                break;
             default:
                 text.innerHTML += innerText[index];
                 break;
